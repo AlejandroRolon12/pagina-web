@@ -1,15 +1,20 @@
-<?xml version="1.0" encoding="UTF-8" ?>
-<rss version="2.0">
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0"
+     xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title>Mexican Motor</title>
-        <link>https://github.com/AlejandroRolon12/pagina-web#optimización-seo</link>
+        <link>https://github.com/AlejandroRolon12/pagina-web</link>
         <description>El sitio web de Mexican Motor ofrece una variedad de servicios especializados en el sector automotriz, incluyendo SEO y marketing por correo electrónico.</description>
         
+        <!-- Declaración del feed como enlace Atom válido -->
+        <atom:link href="https://github.com/AlejandroRolon12/pagina-web/feed.xml" rel="self" type="application/rss+xml"/>
+
         <!-- Ítem principal -->
         <item>
             <title>Optimización SEO</title>
-            <link>https://github.com/AlejandroRolon12/pagina-web#optimización-seo</link>
+            <link>https://github.com/AlejandroRolon12/pagina-web</link>
             <description>Aumenta la visibilidad de tu tienda online con servicios de optimización en motores de búsqueda (SEO) especializados en el sector automotriz.</description>
+            <guid>https://github.com/AlejandroRolon12/pagina-web#optimización-seo</guid>
         </item>
     </channel>
 </rss>
